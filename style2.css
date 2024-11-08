@@ -1,0 +1,37 @@
+.f2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 40vh;
+    background:linear-gradient(to bottom ,white,black), url('https://th.bing.com/th/id/OIP.ncTPIt_gBMG9S_MurvaX8QHaDF?pid=ImgDet&w=1920&h=800&rs=1');
+    background-size: cover;
+    background-blend-mode: darken;
+    }
+    .tag2{
+        color: white;
+        position: relative;
+        top:10vh;
+    }
+    @media (max-width:500px){
+        .tag2{
+            font-size: 25px;
+        }
+    }
+    @media (min-width:1070px) and (max-width:1149px){
+        .navfont2{
+            font-size: 16px;
+        }
+    }
+    @media (min-width:992px) and (max-width:1069px){
+        .navfont2{
+            font-size: 12px;
+        }
+    }
+    .header{
+        background-color:black ;
+    }
+    .card-inner2{
+        color: white;
+        background:linear-gradient(to bottom ,white,black) ;
+
+    }

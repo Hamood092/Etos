@@ -1,0 +1,219 @@
+body{
+    font-family:'Constantia', Times, serif;background: rgba(233, 233, 233, 0.733);
+}
+
+/*.... NAVBAR CSS..........*/
+.header{
+    background-color:none;
+}
+.navfont{
+    width:auto;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:5px;
+}
+@media (min-width:1008px) and (max-width:1066px) {
+    .navfont{
+        font-size: 16px;
+    }
+}
+
+nav .navbar-nav li a{
+    color:aliceblue !important;
+    text-shadow: 1px 0px 1px black;
+    
+    
+}
+nav .navbar-nav li a:hover{
+    color: #02023b !important;
+    background-color: white;
+    border-radius: 15px;
+}
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler{
+    border:2px solid white ;
+}
+
+.tagline{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.f{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background:rgba(0, 0, 0, 0.5) url('https://th.bing.com/th/id/OIP.ncTPIt_gBMG9S_MurvaX8QHaDF?pid=ImgDet&w=1920&h=800&rs=1');
+    background-size: cover;
+    background-blend-mode: darken;
+    }
+    .tag{
+        position: relative;
+        top:-20vh;
+    }
+.ft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+.searchbar{
+        width:60%;
+    }
+
+    .item a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .card p{
+        color: green;
+    } 
+    .card{
+        min-height: 350px;
+        max-height: 350px;
+    }
+    .card-img{
+    max-height: 200px;
+    min-height: 200px;
+    padding: 20px;
+    }
+
+/*------OWL CSS-------*/
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);      
+    }
+        
+.owl-prev {
+    left: 0rem;
+    }
+        
+.owl-next {
+     right: 0rem;
+    }
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+    background-color: rgba(255, 255, 255, 0.488);
+    padding: 00px !important;
+    width: 20px;
+    font-size: 40px;
+    }
+
+    .card{
+        width: 100%;
+        background-color:aliceblue ;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    }
+
+    .card-brand{
+        width: 100%;
+        background-color:aliceblue ;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+        min-height: 220px;
+        max-height: 220px;
+
+    }
+    .card-brand img{
+        min-height: 160px;
+        max-height: 160px;
+    }
+    .link a{
+        text-decoration: none;
+        color: grey
+    }
+    .footer{
+    background-color: rgba(128, 128, 128, 0.263); 
+    color: rgba(0, 0, 0, 0.618);; 
+    font-size: 19px;
+}
+    .footer a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.618);
+    }
+
+/*-------------This is rating stars styling----------*/
+.rate{
+    color: white;
+    font-size: 13px;
+    background-color: rgb(28, 179, 28);
+    padding: 2px 5px;
+    border-radius: 7px;
+}
+.rate-txt{
+    font-size:13px ;
+    color: rgba(0, 0, 0, 0.486);
+}
+.intru{
+    color: rgba(0, 0, 0, 0.605);
+    font-size: 18px;
+}
+
+    /*---------This is inner cards style-----------*/
+.card-inner{
+min-height: 400px;
+max-height: 400px;
+}
+
+@media (min-width:1600px) and (max-width:1800px){
+    .card-inner{
+    min-height: 450px;
+    max-height: 450px;
+    }
+    }
+@media (min-width:1800px) and (max-width:2200px){
+    .card-inner{
+    min-height: 500px;
+    max-height: 500px;
+    }
+    }
+@media (min-width:2200px) and (max-width:2600px){
+    .card-inner{
+    min-height: 550px;
+    max-height: 550px;
+    }
+    }
+@media (min-width:2601px){
+    .card-inner{
+    min-height: 700px;
+    max-height: 700px;
+    }
+    }
+@media (max-width:992px) and (min-width:768px){
+.card-inner img{
+min-height: 225px;
+max-height: 225px;
+}
+}
+@media (max-width:767px) and (min-width:600px){
+.card-inner img{
+min-height: 250px;
+max-height: 250px;
+}
+}
+@media (max-width:599px) and (min-width:320px){
+.card-inner img{
+min-height: 225px;
+max-height: 225px;
+}
+}
+
+
+@media (min-width:992px) and (max-width:1195px)
+{
+    .rate{
+        font-size: 9px;
+    }
+    .rate-txt{
+        font-size:9px ;
+    }
+    .intru{
+        font-size: 16px;
+    }
+}
+
+    /*----------------------------------------*/
